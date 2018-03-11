@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Black Magic 101 - CSS Frameworks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Import bulma CSS file -->  
+
+  <style>
+
+    img {
+      max-width: 600px;
+    }
+
+    /* cards use full height */
+/*
+    .card {
+      height: 100%;
+    }
+*/
+    /* sticky menu */
+/*
+    nav {
+      position: sticky;
+      top: 0px;
+      z-index: 30;
+    }*/
+  </style>
+
+  <script>
+    /* Try to avoid using pure js. There are several nice frameworks / libraries which make your life easier
+     * For example: jQuery, Angular/AngularJS, React
+     */
+    // Check the value of password input and show the correct message
+    /*function validate() {
+      // value of the input
+      var pass = document.getElementById("password").value;
+      // error message
+      var error = document.getElementById("passwordError");
+      // warning message
+      var warning = document.getElementById("passwordWarning");
+      // success message
+      var success = document.getElementById("passwordOk");
+
+      // hide all
+      error.classList.add('is-hidden');
+      warning.classList.add('is-hidden');
+      success.classList.add('is-hidden');
+
+      // remove hiding based on password length
+      if (pass.length == 0) {
+        error.classList.remove('is-hidden');
+      }
+      if (pass.length < 6 && pass.length > 0) {
+        warning.classList.remove('is-hidden');
+      }
+      if (pass.length >= 6) {
+        success.classList.remove('is-hidden');
+      }
+    }*/
+  </script>
+</head>
+
+<body>
+
+  <!-- Header content -->
+  <header class="">
+    <div class="">
+      <img src="https://www.nebu.com/hs-fs/hubfs/Nebu-2016/images/Nebu.png" alt="Nebu Logo">
+    </div>
+  </header>
+
+
+  <!-- Navigation -->
+  <nav class="">
+    <div class="">
+      <ul>
+        <li>
+          <a href="#trinity">Trinity of a website</a>
+        </li>
+        <li>
+          <a href="#cssframeworks">CSS Frameworks</a>
+        </li>
+        <li>
+          <a href="#formExample">Form Example</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- Trinity of web -->
+  <!-- Hero banner -->
+  <section class="" id="trinity">
+    <div class="">
+      <div class="">
+        <h1 class="">Trinity of a website</h1>
+      </div>
+    </div>
+  </section>
+  <!-- Components -->
+  <section class="">
+    <div class="">
+      <div class="">
+
+        <!-- HTML -->
+        <div class="">
+          <div class="">
+            <div class="">
+              <figure class="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo">
+              </figure>
+            </div>
+            <div class="">
+              <h1 class="">HTML</h1>
+              <ul>
+                <li>Structure</li>
+                <li>Content</li>
+                <li>Meta-infomation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- CSS -->
+        <div class="">
+          <div class="">
+            <div class="">
+              <figure class="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo">
+              </figure>
+            </div>
+            <div class="">
+              <h1 class="">CSS</h1>
+              <ul>
+                <li>Design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="">
+          <div class="">
+            <div class="">
+              <figure class="">
+                <img src="https://i1.wp.com/www.zshurbanova.sk/wp-content/uploads/2016/03/js-logo.png" alt="JacaScript Logo">
+              </figure>
+            </div>
+            <div class="">
+              <h1 class="">JavaScript</h1>
+              <ul>
+                <li>Behavior of the site</li>
+                <li>Communication</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- CSS Frameworks -->
+  <!-- Hero banner -->
+  <section class="" id="cssframeworks">
+    <div class="">
+      <div class="">
+        <h1 class="">CSS Frameworks</h1>
+      </div>
+    </div>
+  </section>
+  <!-- Frameworks -->
+  <section class="">
+    <div class="">
+
+      <!-- Bootstrap -->
+      <div class="" onclick="window.open('http://getbootstrap.com/')">
+        <article class="">
+          <figure class="">
+            <img src="http://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="Bootstrap Logo">
+          </figure>
+          <div class="">
+            <div class="">
+              <h1 class="">Bootstrap</h1>
+              <p>
+                The most popular CSS Framework at the moment
+                <br>with many features
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Material-UI -->
+      <div class="" onclick="window.open('http://www.material-ui.com')">
+        <article class="">
+          <figure class="">
+            <img src="http://www.material-ui.com/images/material-ui-logo.svg" alt="Bootstrap Logo">
+          </figure>
+          <div class="">
+            <div class="">
+              <h1 class="">Material-UI</h1>
+              <p>
+                Google's Material Design implementation
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Bulma -->
+      <div class="" onclick="window.open('https://bulma.io/')">
+        <article class="">
+          <figure class="">
+            <img src="https://bulma.io/images/bulma-icon.png" alt="Bulma Logo">
+          </figure>
+          <div class="">
+            <div class="">
+              <h1 class="">Bulma</h1>
+              <p>
+                Has a great documentation
+                <br>Quite new
+                <br>Pure CSS
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Font Awesome -->
+      <div class="" onclick="window.open('https://fontawesome.com/')">
+        <article class="">
+          <figure class="">
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/83/Font_Awesome_2017_Logo.svg" alt="Font Awesome Logo">
+          </figure>
+          <div class="">
+            <div class="">
+              <h1 class="">Font Awesome</h1>
+              <p>
+                Icon library
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Form example -->
+  <!-- Hero banner -->
+  <section class="" id="formExample">
+    <div class="">
+      <div class="">
+        <h1 class="">Form Example</h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form -->
+  <section class="">
+    <div class="">
+
+      <!-- First row -->
+      <div class="">
+        <div class="">
+          <label class="">Email</label>
+        </div>
+        <div class="">
+          <!-- Email field -->
+          <div class="">
+            <div class="">
+              <input class="" type="email" name="email" id="email" placeholder="Email">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second row -->
+      <div class="">
+        <div class="">
+          <label class="">Sign up</label>
+        </div>
+        <div class="">
+          <!-- Name field -->
+          <div class="">
+            <div class="">
+              <input class="" type="text" name="name" id="name" placeholder="Name">
+            </div>
+          </div>
+          <!-- Password field -->
+          <div class="">
+            <div class="">
+              <input type="password" class="" name="password" id="password" placeholder="Password" onkeyup="validate()">
+            </div>
+            <!-- Validator messages -->
+            <p class="" id="passwordError">Password field is required</p>
+            <p class="" id="passwordWarning">Password is weak</p>
+            <p class="" id="passwordOk">Password is strong</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third row -->
+      <div class="">
+        <div class="">
+          <label class="">Did you enjoy this presentation?</label>
+        </div>
+        <div class="">
+          <!-- Answer dropdown -->
+          <div class="">
+            <div class="">
+              <div class="">
+                <select>
+                  <option disabled selected>Select an option</option>
+                  <option>Ohh yeah!</option>
+                  <option>Of course</option>
+                  <option>That was cool</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fourth row -->
+      <div class="">
+        <div class=""></div>
+        <div class="">
+          <!-- Submit button -->
+          <div class="">
+            <div class="">
+              <button class="">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="">
+    <div class="">
+      <div class="">
+        <p class="">Created by Flac</p>
+        <a href="https://bulma.io" target="blank">
+          <img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="256">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
